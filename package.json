@@ -1,0 +1,23 @@
+{
+  "name": "musicjs",
+  "version": "1.0.0",
+  "description": "An interactive music piece.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawnington/musicaldots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawnington/musicaldots/issues"
+  },
+  "homepage": "https://github.com/dawnington/musicaldots#readme",
+  "dependencies": {
+    "animejs": "^1.1.0"
+  }
+}
