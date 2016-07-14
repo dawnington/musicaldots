@@ -1,5 +1,6 @@
 module.exports = {
   '65': 'big',
-  '83': 'medium',
-  '68': 'small',
+  '83': 'mediumLarge',
+  '68': 'medium',
+  '70': 'small',
 };
