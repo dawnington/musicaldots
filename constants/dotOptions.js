@@ -1,26 +1,51 @@
 module.exports = {
-  big: {
-    color: '#cb2929',
+  a: {
+    color: '#ed6e2f',
+    radius: [175, 200],
+    endRadius: 200,
+    duration: [500, 1000],
+    numDots: 1,
+  },
+  w: {
+    color: '#ed6e2f',
     radius: [125, 150],
     duration: [8000, 10000],
+    endRadius: 0,
     numDots: 5,
   },
-  mediumLarge: {
-    color: '#5f2e82',
+  s: {
+    color: '#f6c7df',
     radius: [100, 120],
     duration: [6000, 8000],
+    endRadius: 0,
     numDots: 5,
   },
-  medium: {
-    color: '#475adb',
+  d: {
+    color: '#baecf0',
     radius: [50, 100],
     duration: [4000, 6000],
+    endRadius: 0,
     numDots: 10,
   },
-  small: {
+  f: {
     color: '#f4de70',
-    radius: [10, 50],
-    duration: [2000, 4000],
+    radius: [25, 50],
+    duration: [3000, 4000],
+    endRadius: 0,
     numDots: 20,
+  },
+  g: {
+    color: '#fbfbf4',
+    radius: [15, 25],
+    duration: [2000, 3000],
+    endRadius: 0,
+    numDots: 25,
+  },
+  h: {
+    color: '#222121',
+    radius: [10, 15],
+    duration: [1000, 2000],
+    endRadius: 0,
+    numDots: 30,
   },
 };

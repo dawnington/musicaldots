@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dawnington/musicaldots#readme",
   "dependencies": {
-    "animejs": "^1.1.0"
+    "animejs": "^1.1.0",
+    "howler": "^1.1.29"
   }
 }

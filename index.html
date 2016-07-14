@@ -7,7 +7,23 @@
   <body>
     <canvas class="dots"></canvas>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.29/howler.js"></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
+    <script>
+      const sounds = {
+        a: new Howl({ urls: ['assets/sounds/kickbass.wav'] }),
+        s: new Howl({ urls: ['assets/sounds/toydrum.wav'] }),
+        g: new Howl({ urls: ['assets/sounds/snare2.wav'] }),
+        h: new Howl({ urls: ['assets/sounds/clap.mp3'] }),
+      }
+
+      document.addEventListener('keydown', function (e) {
+        const key = (e.key);
+        if (Object.keys(sounds).indexOf(key) > -1) {
+          sounds[key].play();
+        }
+      }, false);
+    </script>
   </body>
 </html>
