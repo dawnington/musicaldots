@@ -8,3 +8,5 @@ This project uses
 * [anime.js](https://github.com/juliangarnier/anime)
 * [howler.js](https://github.com/goldfire/howler.js/)
 * Canvas
+
+Inspired by [Patatap] (http://www.patatap.com/)
