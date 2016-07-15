@@ -1,3 +1,5 @@
+[logo] (./assets/musicaldots.jpg)
+
 [Live] (https://dawnington.github.io/musicaldots/)
 
 A fun, interactive visual and audio piece.
