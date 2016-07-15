@@ -2,10 +2,14 @@
   <head>
     <title>Music Game</title>
     <link rel="stylesheet" type="text/css" href="assets/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
     <canvas class="dots"></canvas>
+    <div class="description">
+      <h1>Press the keys to begin</h1>
+    </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.29/howler.js"></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
@@ -22,7 +26,7 @@
         a: new Howl({ urls: ['assets/sounds/beatboxsnare.wav'] }),
         s: new Howl({ urls: ['assets/sounds/stomachsnare.wav'] }),
         d: new Howl({ urls: ['assets/sounds/snareparty.wav'] }),
-        f: new Howl({ urls: ['assets/sounds/bop.wav'] }),
+        f: new Howl({ urls: ['assets/sounds/snarebottom.wav'], volume: 0.5 }),
         h: new Howl({ urls: ['assets/sounds/vestsnare.wav'] }),
         j: new Howl({ urls: ['assets/sounds/clap.mp3'] }),
         k: new Howl({ urls: ['assets/sounds/closedhatphrase.wav'] }),

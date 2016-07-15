@@ -43,20 +43,20 @@ module.exports = {
     numDots: 1,
   },
   m: {
-    color: '#222121',
+    color: '#baecf0',
     radius: [175, 200],
     endRadius: 200,
     duration: [500, 1000],
     numDots: 1,
   },
   // mid
-  f: {
-    color: '#f4de70',
-    radius: [25, 50],
-    duration: [500, 1000],
-    endRadius: 35,
-    numDots: 10,
-  },
+  // f: {
+  //   color: '#f4de70',
+  //   radius: [25, 50],
+  //   duration: [500, 1000],
+  //   endRadius: 35,
+  //   numDots: 10,
+  // },
   // medium large
   a: {
     color: '#baecf0',
@@ -74,6 +74,13 @@ module.exports = {
   },
   d: {
     color: '#ed6e2f',
+    radius: [50, 100],
+    duration: [500, 1000],
+    endRadius: 100,
+    numDots: 10,
+  },
+  f: {
+    color: '#f4de70',
     radius: [50, 100],
     duration: [500, 1000],
     endRadius: 100,
@@ -109,18 +116,18 @@ module.exports = {
     numDots: 30,
   },
   // TBD
-  w: {
-    color: '#ed6e2f',
-    radius: [125, 150],
-    duration: [8000, 10000],
-    endRadius: 0,
-    numDots: 5,
-  },
-  e: {
-    color: '#f6c7df',
-    radius: [100, 120],
-    duration: [6000, 8000],
-    endRadius: 0,
-    numDots: 5,
-  },
+  // w: {
+  //   color: '#ed6e2f',
+  //   radius: [125, 150],
+  //   duration: [8000, 10000],
+  //   endRadius: 0,
+  //   numDots: 5,
+  // },
+  // e: {
+  //   color: '#f6c7df',
+  //   radius: [100, 120],
+  //   duration: [6000, 8000],
+  //   endRadius: 0,
+  //   numDots: 5,
+  // },
 };
