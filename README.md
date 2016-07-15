@@ -1,4 +1,4 @@
-[logo] (./assets/musicaldots.jpg)
+![logo] (./assets/musicaldots.jpg)
 
 [Live] (https://dawnington.github.io/musicaldots/)
 
