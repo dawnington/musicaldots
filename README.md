@@ -1,6 +1,6 @@
-![logo] (./assets/musicaldots.jpg)
+![logo]
 
-[Live] (https://dawnington.github.io/musicaldots/)
+[Live](https://dawnington.github.io/musicaldots/)
 
 A fun, interactive visual and audio piece.
 
@@ -9,4 +9,6 @@ This project uses
 * [howler.js](https://github.com/goldfire/howler.js/)
 * Canvas
 
-Inspired by [Patatap] (http://www.patatap.com/)
+Inspired by [Patatap](http://www.patatap.com/)
+
+[logo]: ./assets/musicaldots.jpg
